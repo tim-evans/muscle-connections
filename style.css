@@ -1,0 +1,57 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: "Lato", sans-serif;
+  --text: #111;
+  --surface: #ffe5b1;
+  --hand: rgba(255, 255, 255, 0.3);
+  background: var(--surface);
+  color: var(--text);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --text: #FFF;
+    --surface: #080e30;
+    --hand: rgba(255, 255, 255, 0.1);
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+.card-hand {
+  display: flex;
+  gap: 1rem;
+  position: fixed;
+  bottom: 0px;
+  width: calc(100vw - 4rem);
+  max-width: 800px;
+  padding: 1rem;
+  font-size: 1.125rem;
+  background: var(--hand);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card-played {
+  display: flex;
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  border-radius: 0.5rem;
+  height: 140px;
+  width: 100px;
+  padding: 0.25rem;
+  background: white;
+  box-shadow: 0 0 0 4px #1a609a;
+  color: #111;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+}

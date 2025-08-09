@@ -1,0 +1,175 @@
+[
+  {
+    "name": "Adductor Brevis",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["adduction", "flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["pody of pubis", "inferior ramus of pubis"],
+      "distal": ["linea aspera"]
+    }
+  },
+  {
+    "name": "Illiacus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["flexion", "flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["illiac fossa"],
+      "distal": ["lesser trochanter"]
+    }
+  },
+  {
+    "name": "Psoas Major",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["flexion", "lateral rotation"]
+      },
+      {
+        "name": "spine",
+        "actions": ["lateral flexion", "flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["T12-L4"],
+      "distal": ["lesser trochanter"]
+    }
+  },
+  {
+    "name": "Tensor Fasciae Latae",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["abduction", "medial rotation"]
+      },
+      {
+        "name": "knee",
+        "actions": ["lateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["ASIS"],
+      "distal": ["illiotibial tract"]
+    }
+  },
+  {
+    "name": "Pectineus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": [
+          "flexion",
+          "adduction",
+          "lateral rotation",
+          "medial rotation"
+        ]
+      },
+      {
+        "name": "spine",
+        "actions": ["lateral flexion", "flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["superior ramus of pubis"],
+      "distal": ["linea aspera"]
+    }
+  },
+  {
+    "name": "Adductor Longus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["adduction", "flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["body of pubis", "superior ramus of pubis"],
+      "distal": ["linea aspera"]
+    }
+  },
+  {
+    "name": "Adductor Magnus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": [
+          "adduction",
+          "flexion",
+          "lateral rotation",
+          "medial rotation",
+          "extension"
+        ]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        "inferior ramus of pubis",
+        "ischial ramus",
+        "ischial tuberosity"
+      ],
+      "distal": ["linea aspera"]
+    }
+  },
+  {
+    "name": "Biceps Femoris",
+    "joints": [
+      {
+        "name": "knee",
+        "actions": ["flexion", "lateral rotation"]
+      },
+      {
+        "name": "hip",
+        "actions": ["extension", "lateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["ischial tuberosity", "linea aspera"],
+      "distal": ["head of fibula"]
+    }
+  },
+  {
+    "name": "Rectus Femoris",
+    "joints": [
+      {
+        "name": "knee",
+        "actions": ["flexion"]
+      },
+      {
+        "name": "hip",
+        "actions": ["flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["ASIS"],
+      "distal": ["patellar tendon"]
+    }
+  },
+  {
+    "name": "Biceps Brachii",
+    "joints": [
+      {
+        "name": "shoulder",
+        "actions": ["flexion"]
+      },
+      {
+        "name": "elbow",
+        "actions": ["flexion"]
+      },
+      {
+        "name": "radiounlar",
+        "actions": ["supination"]
+      }
+    ],
+    "attachments": {
+      "proximal": [""],
+      "distal": ["radial tuberosity"]
+    }
+  }
+]
