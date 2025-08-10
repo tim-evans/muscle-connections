@@ -18,6 +18,10 @@ const Attachments = [
     name: "head of fibula",
     nearby: ["illiotibial band", "greater trochanter", "ASIS"],
   },
+  {
+    name: "corocoid process",
+    nearby: ["medial clavicle", "acromion"],
+  },
 ];
 
 export default function attachment(data: Muscle[]) {
