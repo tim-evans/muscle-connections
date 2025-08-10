@@ -509,5 +509,147 @@
       "proximal": ["lateral fibula"],
       "distal": ["base of 5th metatarsal", "tuberosity of the 5th metatarsal"]
     }
+  },
+  {
+    "name": "Levator Scapulae",
+    "joints": [
+      {
+        "name": "scapulothoracic",
+        "actions": ["elevation", "downward rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["transverse proceses of C1-C4"],
+      "distal": ["vertebral border of scapula"]
+    }
+  },
+  {
+    "name": "Pec Minor",
+    "joints": [
+      {
+        "name": "scapulothoracic",
+        "actions": ["protraction", "downward rotation", "depression"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["coracoid process"],
+      "distal": ["R3-R5"]
+    }
+  },
+  {
+    "name": "Rhomboid Minor",
+    "joints": [
+      {
+        "name": "scapulothoracic",
+        "actions": ["retraction", "downward rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["spinous process of C7 and T1"],
+      "distal": ["medial border of scapula"]
+    }
+  },
+  {
+    "name": "Rhomboid Major",
+    "joints": [
+      {
+        "name": "scapulothoracic",
+        "actions": ["retraction", "downward rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["spinous process of T2-T5"],
+      "distal": ["medial border of scapula"]
+    }
+  },
+  {
+    "name": "Deltoid",
+    "joints": [
+      {
+        "name": "glenohumeral",
+        "actions": [
+          "flexion",
+          "extension",
+          "medial rotation",
+          "lateral rotation",
+          "abduction",
+          "horizontal abduction",
+          "horizontal adduction"
+        ]
+      }
+    ],
+    "attachments": {
+      "proximal": ["anterior lateral clavicle", "acromion", "spine of scapula"],
+      "distal": ["deltoid tuberosity"]
+    }
+  },
+  {
+    "name": "Biceps Brachii",
+    "joints": [
+      {
+        "name": "elbow",
+        "actions": ["flexion"]
+      },
+      {
+        "name": "glenohumeral",
+        "actions": ["flexion"]
+      },
+      {
+        "name": "radioulnar",
+        "actions": ["supination"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["supraglenoid tubercle", "coracoid process"],
+      "distal": ["radial tuberosity"]
+    }
+  },
+  {
+    "name": "Coracobrachialis",
+    "joints": [
+      {
+        "name": "glenohumeral",
+        "actions": ["flexion", "adduction"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["coracoid process"],
+      "distal": ["mid-medial shaft of the humerus"]
+    }
+  },
+  {
+    "name": "Teres Major",
+    "joints": [
+      {
+        "name": "glenohumeral",
+        "actions": ["extension", "adduction", "medial rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["inferior angle of scapula", "lateral border of scapula"],
+      "distal": ["medial to the bicipital groove of the humerus"]
+    }
+  },
+  {
+    "name": "Pec Major",
+    "joints": [
+      {
+        "name": "glenohumeral",
+        "actions": [
+          "flexion",
+          "adduction",
+          "medial rotation",
+          "horizontal adduction"
+        ]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        "medial clavicle",
+        "sternum",
+        "costal cartilage of true ribs"
+      ],
+      "distal": ["bicipital groove"]
+    }
   }
 ]
