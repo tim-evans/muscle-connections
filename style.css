@@ -29,16 +29,19 @@ h1 {
   bottom: 0px;
   width: calc(100vw - 4rem);
   max-width: 800px;
+  min-height: 140px;
   padding: 1rem;
   font-size: 1.125rem;
   background: var(--hand);
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
   border-radius: 0.5rem 0.5rem 0 0;
+  justify-content: center;
 }
 
 .card-played {
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 
 .card {
