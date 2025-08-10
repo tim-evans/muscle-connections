@@ -5,9 +5,17 @@ body {
   font-family: "Lato", sans-serif;
   --text: #111;
   --surface: #ffe5b1;
-  --hand: rgba(255, 255, 255, 0.3);
+  --hand: rgba(95, 0, 0, 0.1);
+  --border: #d69719;
+  --correct: #0d9e12;
+  --incorrect: #c50e0e;
   background: var(--surface);
   color: var(--text);
+}
+
+button {
+  padding: 0.25rem 0.5rem;
+  font-weight: bold;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +23,9 @@ body {
     --text: #FFF;
     --surface: #080e30;
     --hand: rgba(255, 255, 255, 0.1);
+    --border: #1a609a;
+    --correct: #0d9e12;
+    --incorrect: #c50e0e;
   }
 }
 
@@ -29,11 +40,10 @@ h1 {
   bottom: 0px;
   width: calc(100vw - 4rem);
   max-width: 800px;
-  min-height: 140px;
+  min-height: 130px;
   padding: 1rem;
   font-size: 1.125rem;
   background: var(--hand);
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
   border-radius: 0.5rem 0.5rem 0 0;
   justify-content: center;
 }
@@ -44,6 +54,62 @@ h1 {
   justify-content: center;
 }
 
+.card-hand .card {
+  flex-shrink: 0;
+  transition: transform 0.5s ease-in-out;
+  transform: translate(0%) rotate(0deg);
+}
+
+.card-hand.count-5 .card:nth-child(1) {
+  transform: translate(60%) rotate(-10deg);
+}
+.card-hand.count-5 .card:nth-child(2) {
+  transform: translate(30%, -8%) rotate(-3deg);
+}
+.card-hand.count-5 .card:nth-child(3) {
+  transform: translate(0%, -10%) rotate(0deg);
+}
+.card-hand.count-5 .card:nth-child(4) {
+  transform: translate(-30%, -8%) rotate(3deg);  right: 20%;
+}
+.card-hand.count-5 .card:nth-child(5) {
+  transform: translate(-60%) rotate(10deg);
+}
+
+.card-hand.count-4 .card:nth-child(1) {
+  transform: translate(40%) rotate(-10deg);
+}
+.card-hand.count-4 .card:nth-child(2) {
+  transform: translate(20%, -7%) rotate(-3deg);
+}
+.card-hand.count-4 .card:nth-child(3) {
+  transform: translate(-10%, -7%) rotate(3deg);
+}
+.card-hand.count-4 .card:nth-child(4) {
+  transform: translate(-40%) rotate(10deg);  right: 20%;
+}
+
+.card-hand.count-3 .card:nth-child(1) {
+  transform: translate(10%) rotate(-10deg);
+}
+.card-hand.count-3 .card:nth-child(2) {
+  transform: translate(0%, -7%) rotate(0deg);
+}
+.card-hand.count-3 .card:nth-child(3) {
+  transform: translate(-10%) rotate(10deg);
+}
+
+.card-hand.count-2 .card:nth-child(1) {
+  transform: translate(10%) rotate(-4deg);
+}
+.card-hand.count-2 .card:nth-child(2) {
+  transform: translate(-10%) rotate(4deg);
+}
+
+.card-hand.count-1 .card:nth-child(2) {
+  transform: translate(0%) rotate(0deg);
+}
+
 .card {
   display: flex;
   border-radius: 0.5rem;
@@ -51,11 +117,19 @@ h1 {
   width: 100px;
   padding: 0.25rem;
   background: white;
-  box-shadow: 0 0 0 4px #1a609a;
+  box-shadow: 0 0 0 4px var(--border);
   color: #111;
   align-items: center;
   text-align: center;
   font-weight: bold;
   justify-content: center;
   word-break: break-word;
+}
+
+.card.correct {
+  --border: var(--correct);
+}
+
+.card.incorrect {
+  --border: var(--incorrect);
 }

@@ -28,57 +28,81 @@ function deal(
     Math.max(Math.floor(Math.random() * 5), 1),
     correct.length
   );
-  let incorrectCount = 6 - correctCount;
+  let incorrectCount = 5 - correctCount;
   let answers = shuffle(correct).slice(0, correctCount);
   let hand = [...shuffle(incorrect).slice(0, incorrectCount), ...answers];
-  if (hand.length < 6) {
+  if (hand.length < 5) {
     hand.push(
       ...shuffle(
         deck.filter((d) => !hand.find((m) => d.name === m.name))
-      ).slice(0, 6 - hand.length)
+      ).slice(0, 5 - hand.length)
     );
   }
-  console.log(correct, answers);
 
   return [shuffle(hand), answers];
 }
 
 export function Deals(props: { data: Muscle[] }) {
-  let { question, deck, answer } = useMemo(() => {
-    let challenge = challenges[Math.floor(challenges.length * Math.random())];
+  let [seed, setSeed] = useState(Math.random());
+  let [hand, setHand] = useState<Muscle[]>([]);
+  let [cards, setCards] = useState<Muscle[]>([]);
+  let [played, setPlayed] = useState(false);
+  let { question, answer } = useMemo(() => {
+    let challenge = challenges[Math.floor(challenges.length * seed)];
     let attrs = challenge(props.data);
     let [deck, answer] = deal(attrs.deck, attrs.answer, props.data);
+    setHand(deck);
+    setCards([]);
+    setPlayed(false);
     return { question: attrs.question, deck, answer };
-  }, [props.data]);
-  let [hand, setHand] = useState(deck);
-  let [cards, setCards] = useState<Muscle[]>([]);
+  }, [props.data, seed]);
 
   return (
     <div>
       <h1>{question}</h1>
-      <button
-        onClick={(evt) => {
-          evt.preventDefault();
-          if (answer.length !== cards.length) {
-            alert("NO, it is " + answer.map((m) => m.name).join(", "));
-          } else if (
-            answer.every((muscle) => cards.find((c) => c.name === muscle.name))
-          ) {
-            alert("YES");
-          } else {
-            alert("NO, it is " + answer.map((m) => m.name).join(", "));
-          }
-          return false;
-        }}
-      >
-        Play Hand
-      </button>
+      {!played && (
+        <button
+          onClick={(evt) => {
+            evt.preventDefault();
+            setPlayed(true);
+            return false;
+          }}
+        >
+          Play Hand
+        </button>
+      )}
+      {played && (
+        <button
+          onClick={(evt) => {
+            evt.preventDefault();
+            setSeed(Math.random());
+            return false;
+          }}
+        >
+          Next Hand
+        </button>
+      )}
       <div className="card-played">
         {cards.map((card) => (
-          <div className="card" key={card.name}>
+          <div
+            className={`card ${
+              played
+                ? answer.find((a) => a.name === card.name)
+                  ? "correct"
+                  : "incorrect"
+                : ""
+            }`}
+            key={card.name}
+          >
             {card.name}
           </div>
         ))}
+        {played &&
+          answer.map((card) => (
+            <div className="card correct" key={card.name}>
+              {card.name}
+            </div>
+          ))}
       </div>
       <Hand
         cards={hand}
