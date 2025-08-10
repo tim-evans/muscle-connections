@@ -414,5 +414,100 @@
       "proximal": ["condyles of femur"],
       "distal": ["calcaneus", "achilles tendon"]
     }
+  },
+  {
+    "name": "Plantaris",
+    "joints": [
+      {
+        "name": "knee",
+        "actions": ["flexion"]
+      },
+      {
+        "name": "ankle",
+        "actions": ["plantarflexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["lateral supracondylar line of femur"],
+      "distal": ["calcaneus", "achilles tendon"]
+    }
+  },
+  {
+    "name": "Soleus",
+    "joints": [
+      {
+        "name": "ankle",
+        "actions": ["plantarflexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["soleal line of tibia", "proximal posterior fibula"],
+      "distal": ["calcaneus", "achilles tendon"]
+    }
+  },
+  {
+    "name": "Tibialis Posterior",
+    "joints": [
+      {
+        "name": "ankle",
+        "actions": ["plantarflexion", "inversion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["posterior tibia and fibula", "interosseous membrane"],
+      "distal": ["navicular", "medial cuneiform"]
+    }
+  },
+  {
+    "name": "Tibialis Anterior",
+    "joints": [
+      {
+        "name": "ankle",
+        "actions": ["dorsiflexion", "inversion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["anterolateral shaft of tibia"],
+      "distal": ["base of 1st metatarsal", "medial cuneiform"]
+    }
+  },
+  {
+    "name": "Tibialis Anterior",
+    "joints": [
+      {
+        "name": "ankle",
+        "actions": ["dorsiflexion", "inversion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["anterolateral shaft of tibia"],
+      "distal": ["base of 1st metatarsal", "medial cuneiform"]
+    }
+  },
+  {
+    "name": "Peroneus Longus",
+    "joints": [
+      {
+        "name": "ankle",
+        "actions": ["plantarflexion", "eversion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["lateral fibula"],
+      "distal": ["base of 1st metatarsal", "medial cuneiform"]
+    }
+  },
+  {
+    "name": "Peroneus Brevis",
+    "joints": [
+      {
+        "name": "ankle",
+        "actions": ["plantarflexion", "eversion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["lateral fibula"],
+      "distal": ["base of 5th metatarsal", "tuberosity of the 5th metatarsal"]
+    }
   }
 ]
