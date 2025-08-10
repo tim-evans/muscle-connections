@@ -19,26 +19,35 @@ function shuffle<T>(items: T[]) {
   return shuffled;
 }
 
-function deal<T>(incorrect: T[], correct: T[]): [T[], T[]] {
+function deal(
+  incorrect: Muscle[],
+  correct: Muscle[],
+  deck: Muscle[]
+): [Muscle[], Muscle[]] {
   let correctCount = Math.min(
     Math.max(Math.floor(Math.random() * 5), 1),
     correct.length
   );
   let incorrectCount = 6 - correctCount;
   let answers = shuffle(correct).slice(0, correctCount);
+  let hand = [...shuffle(incorrect).slice(0, incorrectCount), ...answers];
+  if (hand.length < 6) {
+    hand.push(
+      ...shuffle(
+        deck.filter((d) => !hand.find((m) => d.name === m.name))
+      ).slice(0, 6 - hand.length)
+    );
+  }
   console.log(correct, answers);
 
-  return [
-    shuffle([...shuffle(incorrect).slice(0, incorrectCount), ...answers]),
-    answers,
-  ];
+  return [shuffle(hand), answers];
 }
 
 export function Deals(props: { data: Muscle[] }) {
   let { question, deck, answer } = useMemo(() => {
     let challenge = challenges[Math.floor(challenges.length * Math.random())];
     let attrs = challenge(props.data);
-    let [deck, answer] = deal(attrs.deck, attrs.answer);
+    let [deck, answer] = deal(attrs.deck, attrs.answer, props.data);
     return { question: attrs.question, deck, answer };
   }, [props.data]);
   let [hand, setHand] = useState(deck);

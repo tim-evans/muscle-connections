@@ -43,11 +43,45 @@
     }
   },
   {
+    "name": "Sartorius",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["flexion", "abduction", "lateral rotation"]
+      },
+      {
+        "name": "knee",
+        "actions": ["flexion", "medial rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["ASIS"],
+      "distal": ["shaft of tibia"]
+    }
+  },
+  {
+    "name": "Gluteus Maximus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["extension", "lateral rotation", "abduction", "adduction"]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        "posterior gluteal line",
+        "lateral sacrum",
+        "sacrotuberous ligament"
+      ],
+      "distal": ["gluteal tuberosity", "illiotibial tract"]
+    }
+  },
+  {
     "name": "Tensor Fasciae Latae",
     "joints": [
       {
         "name": "hip",
-        "actions": ["abduction", "medial rotation"]
+        "actions": ["flexion", "abduction", "medial rotation"]
       },
       {
         "name": "knee",
@@ -135,6 +169,180 @@
     }
   },
   {
+    "name": "Semimembranosus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["extension", "medial rotation"]
+      },
+      {
+        "name": "knee",
+        "actions": ["flexion", "medial rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["ischial tuberosity"],
+      "distal": ["medial condyle of tibia"]
+    }
+  },
+  {
+    "name": "Semitendinosus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["extension", "medial rotation"]
+      },
+      {
+        "name": "knee",
+        "actions": ["flexion", "medial rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["ischial tuberosity"],
+      "distal": ["pes anserinus"]
+    }
+  },
+  {
+    "name": "Gluteus Medius",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": [
+          "abduction",
+          "flexion",
+          "medial rotation",
+          "lateral rotation",
+          "extension"
+        ]
+      }
+    ],
+    "attachments": {
+      "proximal": ["superior anterior gluteal lines"],
+      "distal": ["greater trochanter"]
+    }
+  },
+  {
+    "name": "Gluteus Minimus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["abduction", "flexion", "medial rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["inferior gluteal lines"],
+      "distal": ["greater trochanter"]
+    }
+  },
+  {
+    "name": "Pectineus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["adduction", "flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["superior ramus of pubis"],
+      "distal": ["posterior, proximal femur"]
+    }
+  },
+  {
+    "name": "Gracilis",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["adduction", "flexion"]
+      },
+      {
+        "name": "knee",
+        "actions": ["flexion", "medial rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["inferior ramus of pubis"],
+      "distal": ["medial to tibial tuberosity"]
+    }
+  },
+  {
+    "name": "Piriformis",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["abduction", "lateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["anterior sacrum"],
+      "distal": ["greater trochanter"]
+    }
+  },
+  {
+    "name": "Gemellus Superior",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["lateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["ischial spine"],
+      "distal": ["greater trochanter"]
+    }
+  },
+  {
+    "name": "Gemellus Inferior",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["lateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["ischium"],
+      "distal": ["greater trochanter"]
+    }
+  },
+  {
+    "name": "Obturator Internus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["lateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["internal aspect of obturator foramen"],
+      "distal": ["greater trochanter"]
+    }
+  },
+  {
+    "name": "Obturator Externus",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["lateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["external aspect of obturator foramen"],
+      "distal": ["greater trochanter"]
+    }
+  },
+  {
+    "name": "Quadratus Femoris",
+    "joints": [
+      {
+        "name": "hip",
+        "actions": ["adduction", "lateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["lateral surface of ischial tuberosity"],
+      "distal": ["greater trochanter"]
+    }
+  },
+  {
     "name": "Rectus Femoris",
     "joints": [
       {
@@ -148,28 +356,63 @@
     ],
     "attachments": {
       "proximal": ["ASIS"],
-      "distal": ["patellar tendon"]
+      "distal": ["patellar ligament", "tibial tuberosity"]
     }
   },
   {
-    "name": "Biceps Brachii",
+    "name": "Vastus Medialis",
     "joints": [
       {
-        "name": "shoulder",
-        "actions": ["flexion"]
-      },
-      {
-        "name": "elbow",
-        "actions": ["flexion"]
-      },
-      {
-        "name": "radiounlar",
-        "actions": ["supination"]
+        "name": "knee",
+        "actions": ["extension"]
       }
     ],
     "attachments": {
-      "proximal": [""],
-      "distal": ["radial tuberosity"]
+      "proximal": ["medial lip of linea aspera"],
+      "distal": ["tibial tuberosity", "patellar ligament"]
+    }
+  },
+  {
+    "name": "Vastus Lateralis",
+    "joints": [
+      {
+        "name": "knee",
+        "actions": ["extension"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["linea aspera"],
+      "distal": ["tibial tuberosity", "patellar ligament"]
+    }
+  },
+  {
+    "name": "Vastus Intermedius",
+    "joints": [
+      {
+        "name": "knee",
+        "actions": ["extension"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["anterior surface of femur"],
+      "distal": ["tibial tuberosity", "patellar ligament"]
+    }
+  },
+  {
+    "name": "Gastrocnemius",
+    "joints": [
+      {
+        "name": "knee",
+        "actions": ["flexion"]
+      },
+      {
+        "name": "ankle",
+        "actions": ["plantarflexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["condyles of femur"],
+      "distal": ["calcaneus", "achilles tendon"]
     }
   }
 ]
