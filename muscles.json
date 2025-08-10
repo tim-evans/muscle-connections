@@ -472,19 +472,6 @@
     }
   },
   {
-    "name": "Tibialis Anterior",
-    "joints": [
-      {
-        "name": "ankle",
-        "actions": ["dorsiflexion", "inversion"]
-      }
-    ],
-    "attachments": {
-      "proximal": ["anterolateral shaft of tibia"],
-      "distal": ["base of 1st metatarsal", "medial cuneiform"]
-    }
-  },
-  {
     "name": "Peroneus Longus",
     "joints": [
       {
