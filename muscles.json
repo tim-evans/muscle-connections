@@ -871,5 +871,107 @@
       "proximal": ["lateral epicondyle"],
       "distal": ["posterior aspect", "base of metacarpal 5"]
     }
+  },
+  {
+    "name": "Anterior Scalenes",
+    "joints": [
+      {
+        "name": "neck",
+        "actions": ["flex", "lateral flexion", "contralateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["anterior tubercle of cervical TVPs"],
+      "distal": ["R1"]
+    }
+  },
+  {
+    "name": "Middle Scalenes",
+    "joints": [
+      {
+        "name": "neck",
+        "actions": ["flex", "lateral flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["anterior tubercle of cervical TVPs"],
+      "distal": ["R1"]
+    }
+  },
+  {
+    "name": "Posterior Scalenes",
+    "joints": [
+      {
+        "name": "neck",
+        "actions": ["flex", "lateral flexion", "ipsilateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["anterior tubercle of cervical TVPs"],
+      "distal": ["R2"]
+    }
+  },
+  {
+    "name": "Sternocleidomastoid",
+    "joints": [
+      {
+        "name": "neck",
+        "actions": ["flexion", "lateral flexion", "contralateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["manubrium"],
+      "distal": ["mastoid process", "temporal bone", "occipital ridge"]
+    }
+  },
+  {
+    "name": "Upper Trapezius",
+    "joints": [
+      {
+        "name": "scapula",
+        "actions": ["elevation", "upward rotation"]
+      },
+      {
+        "name": "neck",
+        "actions": ["extension", "lateral flexion", "contralateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        "superior nuchal line",
+        "nuchal ligament",
+        "spinous process of C7"
+      ],
+      "distal": ["posterior border on lateral clavicle"]
+    }
+  },
+  {
+    "name": "Middle Trapezius",
+    "joints": [
+      {
+        "name": "scapula",
+        "actions": ["retraction"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["spinous process of T1-T6"],
+      "distal": ["superior border of spine of scapula"]
+    }
+  },
+  {
+    "name": "Lower Trapezius",
+    "joints": [
+      {
+        "name": "scapula",
+        "actions": ["depression", "upward rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["spinous process of T6-T12"],
+      "distal": [
+        "root of spine of scapula",
+        "inferior aspect of spine of scapula"
+      ]
+    }
   }
 ]
