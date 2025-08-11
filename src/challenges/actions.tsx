@@ -56,7 +56,7 @@ export default function actions(data: Muscle[]) {
   return {
     question: (
       <>
-        What muscles of the {joint.name} joint perform {action}?
+        What muscles of the {joint.name} perform {action}?
       </>
     ),
     deck: data.filter((muscle) => {
