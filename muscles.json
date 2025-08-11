@@ -801,5 +801,75 @@
       "proximal": ["distal 1/4 of the ulna"],
       "distal": ["distal 1/4 of the radius"]
     }
+  },
+  {
+    "name": "Flexor Carpi Radialis",
+    "joints": [
+      {
+        "name": "wrist",
+        "actions": ["flexion", "radial deviation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["medial epicondyle"],
+      "distal": ["base of metacarpal 2"]
+    }
+  },
+  {
+    "name": "Flexor Carpi Ulnaris",
+    "joints": [
+      {
+        "name": "wrist",
+        "actions": ["flexion", "ulnar deviation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["medial epicondyle"],
+      "distal": [
+        "pisiform",
+        "hamate",
+        "anterior aspect",
+        "base of metacarpal 5"
+      ]
+    }
+  },
+  {
+    "name": "Extensor Carpi Radialis Longus",
+    "joints": [
+      {
+        "name": "wrist",
+        "actions": ["extension", "radial deviation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["lateral supracondylar ridge"],
+      "distal": ["posterior aspect", "base of metacarpal 2"]
+    }
+  },
+  {
+    "name": "Extensor Carpi Radialis Brevis",
+    "joints": [
+      {
+        "name": "wrist",
+        "actions": ["extension", "radial deviation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["lateral epicondyle"],
+      "distal": ["posterior aspect", "base of metacarpal 3"]
+    }
+  },
+  {
+    "name": "Extensor Carpi Ulnaris",
+    "joints": [
+      {
+        "name": "wrist",
+        "actions": ["extension", "ulnar deviation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["lateral epicondyle"],
+      "distal": ["posterior aspect", "base of metacarpal 5"]
+    }
   }
 ]
