@@ -101,7 +101,7 @@ export function Deals(props: { data: Muscle[] }) {
           answer
             .filter((card) => !cards.includes(card))
             .map((card) => (
-              <div className="card correct" key={card.name}>
+              <div className="card incorrect" key={card.name}>
                 {card.name}
               </div>
             ))}
