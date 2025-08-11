@@ -17,7 +17,16 @@ const Joints = [
       "adduction",
     ],
   },
-  { name: "neck", actions: ["flexion", "extension", "lateral flexion"] },
+  {
+    name: "neck",
+    actions: [
+      "flexion",
+      "extension",
+      "lateral flexion",
+      "ipsilateral rotation",
+      "contralateral rotation",
+    ],
+  },
   {
     name: "shoulder",
     actions: [
