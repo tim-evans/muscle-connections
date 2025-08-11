@@ -43,7 +43,7 @@ const Joints = [
     ],
   },
   { name: "elbow", actions: ["flexion", "extension"] },
-  { name: "radioulnar", actions: ["supination", "pronation"] },
+  { name: "forearm", actions: ["supination", "pronation"] },
   {
     name: "wrist",
     actions: ["flexion", "extension", "ulnar deviation", "radial deviation"],

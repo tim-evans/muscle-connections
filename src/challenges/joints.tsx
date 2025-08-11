@@ -7,9 +7,9 @@ const Joints = [
   { name: "neck", proximal: "scapula", distal: "shoulder" },
   { name: "shoulder", proximal: "neck", distal: "scapula" },
   { name: "scapula", proximal: "neck", distal: "elbow" },
-  { name: "elbow", proximal: "shoulder", distal: "radioulnar" },
-  { name: "radioulnar", proximal: "elbow", distal: "wrist" },
-  { name: "wrist", proximal: "radioulnar", distal: null },
+  { name: "elbow", proximal: "shoulder", distal: "forearm" },
+  { name: "forearm", proximal: "elbow", distal: "wrist" },
+  { name: "wrist", proximal: "forearm", distal: null },
 ];
 
 export default function joints(data: Muscle[]) {

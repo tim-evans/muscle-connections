@@ -582,7 +582,7 @@
         "actions": ["flexion"]
       },
       {
-        "name": "radioulnar",
+        "name": "forearm",
         "actions": ["supination"]
       }
     ],
