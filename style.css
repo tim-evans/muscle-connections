@@ -58,9 +58,12 @@ h1 {
 }
 
 .card-played {
-  display: flex;
+  display: grid;
   gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .card-hand .card {

@@ -15,7 +15,7 @@ const Joints = [
 export default function joints(data: Muscle[]) {
   let joint = Joints[Math.floor(Math.random() * Joints.length)];
   return {
-    question: <>What muscles cross the {joint.name} joint?</>,
+    question: <>What muscles cross the {joint.name}?</>,
     deck: data.filter((muscle) => {
       return (
         muscle.joints.some((muscleJoint) => {
