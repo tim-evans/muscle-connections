@@ -14,8 +14,17 @@ body {
 }
 
 button {
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 0.75rem;
   font-weight: bold;
+  appearance: none;
+  background: #FFF;
+  border: 0;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+button:active {
+  box-shadow: 0 0 0 3px var(--border);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -132,4 +141,16 @@ h1 {
 
 .card.incorrect {
   --border: var(--incorrect);
+}
+
+@media (max-width: 600px) {
+  .card {
+    height: 110px;
+    width: 80px;
+    font-size: 0.9rem;
+  }
+
+  .card-hand {
+    min-height: 100px;
+  }
 }

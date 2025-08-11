@@ -501,7 +501,7 @@
     "name": "Levator Scapulae",
     "joints": [
       {
-        "name": "scapulothoracic",
+        "name": "scapula",
         "actions": ["elevation", "downward rotation"]
       }
     ],
@@ -514,7 +514,7 @@
     "name": "Pec Minor",
     "joints": [
       {
-        "name": "scapulothoracic",
+        "name": "scapula",
         "actions": ["protraction", "downward rotation", "depression"]
       }
     ],
@@ -527,7 +527,7 @@
     "name": "Rhomboid Minor",
     "joints": [
       {
-        "name": "scapulothoracic",
+        "name": "scapula",
         "actions": ["retraction", "downward rotation"]
       }
     ],
@@ -540,7 +540,7 @@
     "name": "Rhomboid Major",
     "joints": [
       {
-        "name": "scapulothoracic",
+        "name": "scapula",
         "actions": ["retraction", "downward rotation"]
       }
     ],
@@ -553,7 +553,7 @@
     "name": "Deltoid",
     "joints": [
       {
-        "name": "glenohumeral",
+        "name": "shoulder",
         "actions": [
           "flexion",
           "extension",
@@ -578,7 +578,7 @@
         "actions": ["flexion"]
       },
       {
-        "name": "glenohumeral",
+        "name": "shoulder",
         "actions": ["flexion"]
       },
       {
@@ -595,7 +595,7 @@
     "name": "Coracobrachialis",
     "joints": [
       {
-        "name": "glenohumeral",
+        "name": "shoulder",
         "actions": ["flexion", "adduction"]
       }
     ],
@@ -608,7 +608,7 @@
     "name": "Teres Major",
     "joints": [
       {
-        "name": "glenohumeral",
+        "name": "shoulder",
         "actions": ["extension", "adduction", "medial rotation"]
       }
     ],
@@ -621,7 +621,7 @@
     "name": "Pec Major",
     "joints": [
       {
-        "name": "glenohumeral",
+        "name": "shoulder",
         "actions": [
           "flexion",
           "adduction",
