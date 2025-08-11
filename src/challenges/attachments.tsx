@@ -1,22 +1,22 @@
 import { Muscle } from "../types";
 
 const Attachments = [
-  { name: "greater trochanter", nearby: ["illiotibial band", "ASIS", "AIIS"] },
-  { name: "illiotibial band", nearby: ["greater trochanter", "ASIS", "AIIS"] },
-  { name: "ASIS", nearby: ["illiotibial band", "greater trochanter", "AIIS"] },
-  { name: "AIIS", nearby: ["illiotibial band", "greater trochanter", "ASIS"] },
+  { name: "greater trochanter", nearby: ["illiotibial tract", "ASIS", "AIIS"] },
+  { name: "illiotibial tract", nearby: ["greater trochanter", "ASIS", "AIIS"] },
+  { name: "ASIS", nearby: ["illiotibial tract", "greater trochanter", "AIIS"] },
+  { name: "AIIS", nearby: ["illiotibial tract", "greater trochanter", "ASIS"] },
   { name: "ischial ramus", nearby: ["ischial tuberosity", "ASIS", "AIIS"] },
   {
     name: "linea aspera",
-    nearby: ["illiotibial band", "greater trochanter", "ASIS"],
+    nearby: ["illiotibial tract", "greater trochanter", "ASIS"],
   },
   {
     name: "pes anserinus",
-    nearby: ["illiotibial band", "greater trochanter", "ASIS"],
+    nearby: ["illiotibial tract", "greater trochanter", "ASIS"],
   },
   {
     name: "head of fibula",
-    nearby: ["illiotibial band", "greater trochanter", "ASIS"],
+    nearby: ["illiotibial tract", "greater trochanter", "ASIS"],
   },
   {
     name: "corocoid process",
