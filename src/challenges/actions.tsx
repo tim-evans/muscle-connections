@@ -17,9 +17,9 @@ const Joints = [
       "adduction",
     ],
   },
-  { name: "cervical", actions: ["flexion", "extension", "lateral flexion"] },
+  { name: "neck", actions: ["flexion", "extension", "lateral flexion"] },
   {
-    name: "glenohumeral",
+    name: "shoulder",
     actions: [
       "flexion",
       "extension",
@@ -32,7 +32,7 @@ const Joints = [
     ],
   },
   {
-    name: "scapulothoracic",
+    name: "scapula",
     actions: [
       "protraction",
       "retraction",
