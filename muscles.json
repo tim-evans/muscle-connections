@@ -638,5 +638,168 @@
       ],
       "distal": ["bicipital groove"]
     }
+  },
+  {
+    "name": "Subscapularis",
+    "joints": [
+      {
+        "name": "shoulder",
+        "actions": ["medial rotation", "abduction"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["subscapular fossa"],
+      "distal": ["lesser tubercle of humerus"]
+    }
+  },
+  {
+    "name": "Latissimus Dorsi",
+    "joints": [
+      {
+        "name": "shoulder",
+        "actions": ["extension", "adduction", "medial rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        "thoracolumbar aponeurosis",
+        "spinous process of T6/T7-L5",
+        "iliac crest"
+      ],
+      "distal": ["medial lip of bicipital groove"]
+    }
+  },
+  {
+    "name": "Infraspinatus",
+    "joints": [
+      {
+        "name": "shoulder",
+        "actions": ["lateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["infraspinatus fossa"],
+      "distal": ["greater tubercle"]
+    }
+  },
+  {
+    "name": "Teres Minor",
+    "joints": [
+      {
+        "name": "shoulder",
+        "actions": ["lateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["superior border of scapula"],
+      "distal": ["greater tubercle"]
+    }
+  },
+  {
+    "name": "Triceps Brachii",
+    "joints": [
+      {
+        "name": "shoulder",
+        "actions": ["extension", "adduction"]
+      },
+      {
+        "name": "elbow",
+        "actions": ["extension"]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        "infraglenoid tubercle",
+        "proximal, lateral portion of posterior humerus",
+        "deep, most of posterior humerus"
+      ],
+      "distal": ["olecranon process"]
+    }
+  },
+  {
+    "name": "Anconeus",
+    "joints": [
+      {
+        "name": "elbow",
+        "actions": ["extension"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["lateral epicondyle"],
+      "distal": ["proximal, posterior ulna"]
+    }
+  },
+  {
+    "name": "Brachialis",
+    "joints": [
+      {
+        "name": "elbow",
+        "actions": ["flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["distal, anterior humerus"],
+      "distal": ["ulnar tuberosity"]
+    }
+  },
+  {
+    "name": "Brachioradialis",
+    "joints": [
+      {
+        "name": "elbow",
+        "actions": ["flexion"]
+      },
+      {
+        "name": "forearm",
+        "actions": ["neutral"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["lateral supracondylar ridge"],
+      "distal": ["styloid process of radius"]
+    }
+  },
+  {
+    "name": "Supinator",
+    "joints": [
+      {
+        "name": "elbow",
+        "actions": ["flexion"]
+      },
+      {
+        "name": "forearm",
+        "actions": ["supination"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["lateral epicondyle", "posterior ulna"],
+      "distal": ["proximal, lateral edge of anterior radius"]
+    }
+  },
+  {
+    "name": "Pronator Quadratus",
+    "joints": [
+      {
+        "name": "forearm",
+        "actions": ["pronation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["distal 1/4 of the ulna"],
+      "distal": ["distal 1/4 of the radius"]
+    }
+  },
+  {
+    "name": "Pronator Quadratus",
+    "joints": [
+      {
+        "name": "forearm",
+        "actions": ["pronation"]
+      }
+    ],
+    "attachments": {
+      "proximal": ["distal 1/4 of the ulna"],
+      "distal": ["distal 1/4 of the radius"]
+    }
   }
 ]
