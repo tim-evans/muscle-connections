@@ -3,4 +3,4 @@ import attachment from "./attachments";
 import bones from "./bones";
 import joints from "./joints";
 
-export default [actions]; //[attachment, joints, actions, bones];
+export default [attachment, joints, actions, bones];
