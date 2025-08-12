@@ -8,8 +8,22 @@
       }
     ],
     "attachments": {
-      "proximal": ["pody of pubis", "inferior ramus of pubis"],
-      "distal": ["linea aspera"]
+      "proximal": [
+        {
+          "name": "body of pubis",
+          "bone": "os coxae"
+        },
+        {
+          "name": "inferior ramus of pubis",
+          "bone": "humerus"
+        }
+      ],
+      "distal": [
+        {
+          "name": "linea aspera",
+          "bone": "femur"
+        }
+      ]
     }
   },
   {
@@ -21,8 +35,18 @@
       }
     ],
     "attachments": {
-      "proximal": ["illiac fossa"],
-      "distal": ["lesser trochanter"]
+      "proximal": [
+        {
+          "name": "illiac fossa",
+          "bone": "os coxae"
+        }
+      ],
+      "distal": [
+        {
+          "name": "lesser trochanter",
+          "bone": "femur"
+        }
+      ]
     }
   },
   {
@@ -38,8 +62,18 @@
       }
     ],
     "attachments": {
-      "proximal": ["T12-L4"],
-      "distal": ["lesser trochanter"]
+      "proximal": [
+        {
+          "name": "T12-L4",
+          "bone": "spine"
+        }
+      ],
+      "distal": [
+        {
+          "name": "lesser trochanter",
+          "bone": "femur"
+        }
+      ]
     }
   },
   {
@@ -55,8 +89,18 @@
       }
     ],
     "attachments": {
-      "proximal": ["ASIS"],
-      "distal": ["shaft of tibia"]
+      "proximal": [
+        {
+          "name": "ASIS",
+          "bone": "os coxae"
+        }
+      ],
+      "distal": [
+        {
+          "name": "shaft of tibia",
+          "bone": "tibia"
+        }
+      ]
     }
   },
   {
@@ -69,11 +113,27 @@
     ],
     "attachments": {
       "proximal": [
-        "posterior gluteal line",
-        "lateral sacrum",
-        "sacrotuberous ligament"
+        {
+          "name": "posterior gluteal line",
+          "bone": "os coxae"
+        },
+        {
+          "name": "lateral sacrum",
+          "bone": "sacrum"
+        },
+        {
+          "name": "sacrotuberus ligament"
+        }
       ],
-      "distal": ["gluteal tuberosity", "illiotibial tract"]
+      "distal": [
+        {
+          "name": "gluteal tuberosity",
+          "bone": "femur"
+        },
+        {
+          "name": "illiotibial tract"
+        }
+      ]
     }
   },
   {
@@ -89,8 +149,13 @@
       }
     ],
     "attachments": {
-      "proximal": ["ASIS"],
-      "distal": ["illiotibial tract"]
+      "proximal": [
+        {
+          "name": "ASIS",
+          "bone": "os coxae"
+        }
+      ],
+      "distal": [{ "name": "illiotibial tract" }]
     }
   },
   {
@@ -111,8 +176,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["superior ramus of pubis"],
-      "distal": ["linea aspera"]
+      "proximal": [{ "name": "superior ramus of pubis", "bone": "os coxae" }],
+      "distal": [{ "name": "linea aspera", "bone": "femur" }]
     }
   },
   {
@@ -124,8 +189,11 @@
       }
     ],
     "attachments": {
-      "proximal": ["body of pubis", "superior ramus of pubis"],
-      "distal": ["linea aspera"]
+      "proximal": [
+        { "name": "body of pubis", "bone": "os coxae" },
+        { "name": "superior ramus of pubis", "bone": "os coxae" }
+      ],
+      "distal": [{ "name": "linea aspera", "bone": "femur" }]
     }
   },
   {
@@ -144,11 +212,11 @@
     ],
     "attachments": {
       "proximal": [
-        "inferior ramus of pubis",
-        "ischial ramus",
-        "ischial tuberosity"
+        { "name": "inferior ramus of pubis", "bone": "os coxae" },
+        { "name": "ischial ramus", "bone": "os coxae" },
+        { "name": "ischial tuberosity", "bone": "os coxae" }
       ],
-      "distal": ["linea aspera"]
+      "distal": [{ "name": "linea aspera", "bone": "femur" }]
     }
   },
   {
@@ -164,8 +232,11 @@
       }
     ],
     "attachments": {
-      "proximal": ["ischial tuberosity", "linea aspera"],
-      "distal": ["head of fibula"]
+      "proximal": [
+        { "name": "ischial tuberosity", "bone": "os coxae" },
+        { "name": "linea aspera", "bone": "femur" }
+      ],
+      "distal": [{ "name": "head of fibula", "bone": "fibula" }]
     }
   },
   {
@@ -181,8 +252,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["ischial tuberosity"],
-      "distal": ["medial condyle of tibia"]
+      "proximal": [{ "name": "ischial tuberosity", "bone": "os coxae" }],
+      "distal": [{ "name": "medial condyle of tibia", "bone": "tibia" }]
     }
   },
   {
@@ -198,8 +269,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["ischial tuberosity"],
-      "distal": ["pes anserinus"]
+      "proximal": [{ "name": "ischial tuberosity", "bone": "os coxae" }],
+      "distal": [{ "name": "pes anserinus", "bone": "tibia" }]
     }
   },
   {
@@ -217,8 +288,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["superior anterior gluteal lines"],
-      "distal": ["greater trochanter"]
+      "proximal": [
+        { "name": "superior anterior gluteal lines", "bone": "os coxae" }
+      ],
+      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
     }
   },
   {
@@ -230,8 +303,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["inferior gluteal lines"],
-      "distal": ["greater trochanter"]
+      "proximal": [{ "name": "inferior gluteal lines", "bone": "os coxae" }],
+      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
     }
   },
   {
@@ -243,8 +316,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["superior ramus of pubis"],
-      "distal": ["posterior, proximal femur"]
+      "proximal": [{ "name": "superior ramus of pubis", "bone": "os coxae" }],
+      "distal": [{ "name": "posterior, proximal femur", "bone": "femur" }]
     }
   },
   {
@@ -260,8 +333,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["inferior ramus of pubis"],
-      "distal": ["medial to tibial tuberosity"]
+      "proximal": [{ "name": "inferior ramus of pubis", "bone": "os coxae" }],
+      "distal": [{ "name": "medial to tibial tuberosity", "bone": "tibia" }]
     }
   },
   {
@@ -273,8 +346,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["anterior sacrum"],
-      "distal": ["greater trochanter"]
+      "proximal": [{ "name": "anterior sacrum", "bone": "sacrum" }],
+      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
     }
   },
   {
@@ -286,8 +359,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["ischial spine"],
-      "distal": ["greater trochanter"]
+      "proximal": [{ "name": "ischial spine", "bone": "os coxae" }],
+      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
     }
   },
   {
@@ -299,8 +372,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["ischium"],
-      "distal": ["greater trochanter"]
+      "proximal": [{ "name": "ischium", "bone": "os coxae" }],
+      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
     }
   },
   {
@@ -312,8 +385,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["internal aspect of obturator foramen"],
-      "distal": ["greater trochanter"]
+      "proximal": [
+        { "name": "internal aspect of obturator foramen", "bone": "os coxae" }
+      ],
+      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
     }
   },
   {
@@ -325,8 +400,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["external aspect of obturator foramen"],
-      "distal": ["greater trochanter"]
+      "proximal": [
+        { "name": "external aspect of obturator foramen", "bone": "os coxae" }
+      ],
+      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
     }
   },
   {
@@ -338,8 +415,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["lateral surface of ischial tuberosity"],
-      "distal": ["greater trochanter"]
+      "proximal": [
+        { "name": "lateral surface of ischial tuberosity", "bone": "os coxae" }
+      ],
+      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
     }
   },
   {
@@ -355,8 +434,13 @@
       }
     ],
     "attachments": {
-      "proximal": ["ASIS"],
-      "distal": ["patellar ligament", "tibial tuberosity"]
+      "proximal": [
+        {
+          "name": "AIIS",
+          "bone": "os coxae"
+        }
+      ],
+      "distal": [{ "name": "tibial tuberosity", "bone": "tibia" }]
     }
   },
   {
@@ -368,8 +452,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["medial lip of linea aspera"],
-      "distal": ["tibial tuberosity", "patellar ligament"]
+      "proximal": [{ "name": "medial lip of linea aspera", "bone": "femur" }],
+      "distal": [{ "name": "tibial tuberosity", "bone": "tibia" }]
     }
   },
   {
@@ -381,8 +465,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["linea aspera"],
-      "distal": ["tibial tuberosity", "patellar ligament"]
+      "proximal": [{ "name": "linea aspera", "bone": "femur" }],
+      "distal": [{ "name": "tibial tuberosity", "bone": "tibia" }]
     }
   },
   {
@@ -394,8 +478,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["anterior surface of femur"],
-      "distal": ["tibial tuberosity", "patellar ligament"]
+      "proximal": [{ "name": "anterior surface of femur", "bone": "femur" }],
+      "distal": [{ "name": "tibial tuberosity", "bone": "tibia" }]
     }
   },
   {
@@ -411,8 +495,11 @@
       }
     ],
     "attachments": {
-      "proximal": ["condyles of femur"],
-      "distal": ["calcaneus", "achilles tendon"]
+      "proximal": [{ "name": "condyles of femur", "bone": "femur" }],
+      "distal": [
+        { "name": "calcaneus", "bone": "tarsals" },
+        { "name": "achilles tendon" }
+      ]
     }
   },
   {
@@ -428,8 +515,13 @@
       }
     ],
     "attachments": {
-      "proximal": ["lateral supracondylar line of femur"],
-      "distal": ["calcaneus", "achilles tendon"]
+      "proximal": [
+        { "name": "lateral supracondylar line of femur", "bone": "femur" }
+      ],
+      "distal": [
+        { "name": "calcaneus", "bone": "tarsals" },
+        { "name": "achilles tendon" }
+      ]
     }
   },
   {
@@ -441,8 +533,14 @@
       }
     ],
     "attachments": {
-      "proximal": ["soleal line of tibia", "proximal posterior fibula"],
-      "distal": ["calcaneus", "achilles tendon"]
+      "proximal": [
+        { "name": "soleal line of tibia", "bone": "tibia" },
+        { "name": "proximal posterior fibula", "bone": "fibula" }
+      ],
+      "distal": [
+        { "name": "calcaneus", "bone": "tarsals" },
+        { "name": "achilles tendon" }
+      ]
     }
   },
   {
@@ -454,8 +552,15 @@
       }
     ],
     "attachments": {
-      "proximal": ["posterior tibia and fibula", "interosseous membrane"],
-      "distal": ["navicular", "medial cuneiform"]
+      "proximal": [
+        { "name": "posterior tibia", "bone": "tibia" },
+        { "name": "posterior fibula", "bone": "fibula" },
+        { "name": "interosseous membrane" }
+      ],
+      "distal": [
+        { "name": "navicular", "bone": "tarsals" },
+        { "name": "medial cuneiform", "bone": "tarsals" }
+      ]
     }
   },
   {
@@ -467,8 +572,11 @@
       }
     ],
     "attachments": {
-      "proximal": ["anterolateral shaft of tibia"],
-      "distal": ["base of 1st metatarsal", "medial cuneiform"]
+      "proximal": [{ "name": "anterolateral shaft of tibia", "bone": "tibia" }],
+      "distal": [
+        { "name": "base of 1st metatarsal", "bone": "metatarsals" },
+        { "name": "medial cuneiform", "bone": "tarsals" }
+      ]
     }
   },
   {
@@ -480,8 +588,11 @@
       }
     ],
     "attachments": {
-      "proximal": ["lateral fibula"],
-      "distal": ["base of 1st metatarsal", "medial cuneiform"]
+      "proximal": [{ "name": "lateral fibula", "bone": "fibula" }],
+      "distal": [
+        { "name": "base of 1st metatarsal", "bone": "metatarsals" },
+        { "name": "medial cuneiform", "bone": "tarsals" }
+      ]
     }
   },
   {
@@ -493,8 +604,11 @@
       }
     ],
     "attachments": {
-      "proximal": ["lateral fibula"],
-      "distal": ["base of 5th metatarsal", "tuberosity of the 5th metatarsal"]
+      "proximal": [{ "name": "lateral fibula", "bone": "fibula" }],
+      "distal": [
+        { "name": "base of 5th metatarsal", "bone": "metatarsals" },
+        { "name": "tuberosity of 5th metatarsal", "bone": "metatarsals" }
+      ]
     }
   },
   {
@@ -506,8 +620,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["transverse proceses of C1-C4"],
-      "distal": ["vertebral border of scapula"]
+      "proximal": [{ "name": "transverse proceses of C1-C4", "bone": "spine" }],
+      "distal": [{ "name": "vertebral border of scapula", "bone": "scapula" }]
     }
   },
   {
@@ -519,8 +633,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["coracoid process"],
-      "distal": ["R3-R5"]
+      "proximal": [{ "name": "coracoid process", "bone": "scapula" }],
+      "distal": [{ "name": "R3-R5", "bone": "ribs" }]
     }
   },
   {
@@ -532,8 +646,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["spinous process of C7 and T1"],
-      "distal": ["medial border of scapula"]
+      "proximal": [{ "name": "spinous process of C7 and T1", "bone": "spine" }],
+      "distal": [{ "name": "medial border of scapula", "bone": "scapula" }]
     }
   },
   {
@@ -545,8 +659,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["spinous process of T2-T5"],
-      "distal": ["medial border of scapula"]
+      "proximal": [{ "name": "spinous process of T2-T5", "bone": "spine" }],
+      "distal": [{ "name": "medial border of scapula", "bone": "scapula" }]
     }
   },
   {
@@ -566,8 +680,12 @@
       }
     ],
     "attachments": {
-      "proximal": ["anterior lateral clavicle", "acromion", "spine of scapula"],
-      "distal": ["deltoid tuberosity"]
+      "proximal": [
+        { "name": "anterior lateral clavicle", "bone": "clavicle" },
+        { "name": "acromion", "bone": "scapula" },
+        { "name": "spine of scapula", "bone": "scapula" }
+      ],
+      "distal": [{ "name": "deltoid tuberosity", "bone": "humerus" }]
     }
   },
   {
@@ -587,8 +705,11 @@
       }
     ],
     "attachments": {
-      "proximal": ["supraglenoid tubercle", "coracoid process"],
-      "distal": ["radial tuberosity"]
+      "proximal": [
+        { "name": "supraglenoid tubercle", "bone": "scapula" },
+        { "name": "coracoid process", "bone": "scapula" }
+      ],
+      "distal": [{ "name": "radial tuberosity", "bone": "radius" }]
     }
   },
   {
@@ -600,8 +721,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["coracoid process"],
-      "distal": ["mid-medial shaft of the humerus"]
+      "proximal": [{ "name": "coracoid process", "bone": "scapula" }],
+      "distal": [
+        { "name": "mid-medial shaft of the humerus", "bone": "humerus" }
+      ]
     }
   },
   {
@@ -613,8 +736,16 @@
       }
     ],
     "attachments": {
-      "proximal": ["inferior angle of scapula", "lateral border of scapula"],
-      "distal": ["medial to the bicipital groove of the humerus"]
+      "proximal": [
+        { "name": "inferior angle of scapula", "bone": "scapula" },
+        { "name": "lateral border of scapula", "bone": "scapula" }
+      ],
+      "distal": [
+        {
+          "name": "medial to the bicipital groove of the humerus",
+          "bone": "humerus"
+        }
+      ]
     }
   },
   {
@@ -632,11 +763,11 @@
     ],
     "attachments": {
       "proximal": [
-        "medial clavicle",
-        "sternum",
-        "costal cartilage of true ribs"
+        { "name": "medial clavicle", "bone": "clavicle" },
+        { "name": "sternum", "bone": "sternum" },
+        { "name": "costal cartilage of true ribs", "bone": "ribs" }
       ],
-      "distal": ["bicipital groove"]
+      "distal": [{ "name": "bicipital groove", "bone": "humerus" }]
     }
   },
   {
@@ -648,8 +779,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["subscapular fossa"],
-      "distal": ["lesser tubercle of humerus"]
+      "proximal": [{ "name": "subscapular fossa", "bone": "scapula" }],
+      "distal": [{ "name": "lesser tubercle of humerus", "bone": "humerus" }]
     }
   },
   {
@@ -662,11 +793,13 @@
     ],
     "attachments": {
       "proximal": [
-        "thoracolumbar aponeurosis",
-        "spinous process of T6/T7-L5",
-        "iliac crest"
+        { "name": "thoracolumbar aponeurosis" },
+        { "name": "spinous process of T6/T7-L5", "bone": "spine" },
+        { "name": "iliac crest", "bone": "os coxae" }
       ],
-      "distal": ["medial lip of bicipital groove"]
+      "distal": [
+        { "name": "medial lip of bicipital groove", "bone": "humerus" }
+      ]
     }
   },
   {
@@ -678,8 +811,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["infraspinatus fossa"],
-      "distal": ["greater tubercle"]
+      "proximal": [{ "name": "infraspinatus fossa", "bone": "scapula" }],
+      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
     }
   },
   {
@@ -691,8 +824,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["superior border of scapula"],
-      "distal": ["greater tubercle"]
+      "proximal": [{ "name": "superior border of scapula", "bone": "scapula" }],
+      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
     }
   },
   {
@@ -709,11 +842,14 @@
     ],
     "attachments": {
       "proximal": [
-        "infraglenoid tubercle",
-        "proximal, lateral portion of posterior humerus",
-        "deep, most of posterior humerus"
+        { "name": "infraglenoid tubercle", "bone": "scapula" },
+        {
+          "name": "proximal, lateral portion of posterior humerus",
+          "bone": "humerus"
+        },
+        { "name": "deep, most of posterior humerus", "bone": "humerus" }
       ],
-      "distal": ["olecranon process"]
+      "distal": [{ "name": "olecranon process", "bone": "ulna" }]
     }
   },
   {
@@ -725,8 +861,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["lateral epicondyle"],
-      "distal": ["proximal, posterior ulna"]
+      "proximal": [{ "name": "lateral epicondyle", "bone": "humerus" }],
+      "distal": [{ "name": "proximal, posterior ulna", "bone": "ulna" }]
     }
   },
   {
@@ -738,8 +874,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["distal, anterior humerus"],
-      "distal": ["ulnar tuberosity"]
+      "proximal": [{ "name": "distal, anterior humerus", "bone": "humerus" }],
+      "distal": [{ "name": "ulnar tuberosity", "bone": "ulna" }]
     }
   },
   {
@@ -755,8 +891,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["lateral supracondylar ridge"],
-      "distal": ["styloid process of radius"]
+      "proximal": [
+        { "name": "lateral supracondylar ridge", "bone": "humerus" }
+      ],
+      "distal": [{ "name": "styloid process of radius", "bone": "radius" }]
     }
   },
   {
@@ -772,8 +910,16 @@
       }
     ],
     "attachments": {
-      "proximal": ["lateral epicondyle", "posterior ulna"],
-      "distal": ["proximal, lateral edge of anterior radius"]
+      "proximal": [
+        { "name": "lateral epicondyle", "bone": "humerus" },
+        { "name": "posterior ulna", "bone": "ulna" }
+      ],
+      "distal": [
+        {
+          "name": "proximal, lateral edge of anterior radius",
+          "bone": "radius"
+        }
+      ]
     }
   },
   {
@@ -785,21 +931,8 @@
       }
     ],
     "attachments": {
-      "proximal": ["distal 1/4 of the ulna"],
-      "distal": ["distal 1/4 of the radius"]
-    }
-  },
-  {
-    "name": "Pronator Quadratus",
-    "joints": [
-      {
-        "name": "forearm",
-        "actions": ["pronation"]
-      }
-    ],
-    "attachments": {
-      "proximal": ["distal 1/4 of the ulna"],
-      "distal": ["distal 1/4 of the radius"]
+      "proximal": [{ "name": "distal 1/4 of the ulna", "bone": "ulna" }],
+      "distal": [{ "name": "distal 1/4 of the radius", "bone": "radius" }]
     }
   },
   {
@@ -811,8 +944,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["medial epicondyle"],
-      "distal": ["base of metacarpal 2"]
+      "proximal": [{ "name": "medial epicondyle", "bone": "humerus" }],
+      "distal": [
+        { "name": "base of the 2nd metacarpal", "bone": "metacarpals" }
+      ]
     }
   },
   {
@@ -824,12 +959,12 @@
       }
     ],
     "attachments": {
-      "proximal": ["medial epicondyle"],
+      "proximal": [{ "name": "medial epicondyle", "bone": "humerus" }],
       "distal": [
-        "pisiform",
-        "hamate",
-        "anterior aspect",
-        "base of metacarpal 5"
+        { "name": "pisiform", "bone": "carpals" },
+        { "name": "hamate", "bone": "carpals" },
+        { "name": "anterior aspect of palm" },
+        { "name": "base of 5th metacarpal", "bone": "metacarpals" }
       ]
     }
   },
@@ -842,8 +977,13 @@
       }
     ],
     "attachments": {
-      "proximal": ["lateral supracondylar ridge"],
-      "distal": ["posterior aspect", "base of metacarpal 2"]
+      "proximal": [
+        { "name": "lateral supracondylar ridge", "bone": "humerus" }
+      ],
+      "distal": [
+        { "name": "posterior aspect of the hand" },
+        { "name": "base of 2nd metacarpal", "bone": "metacarpals" }
+      ]
     }
   },
   {
@@ -855,8 +995,11 @@
       }
     ],
     "attachments": {
-      "proximal": ["lateral epicondyle"],
-      "distal": ["posterior aspect", "base of metacarpal 3"]
+      "proximal": [{ "name": "lateral epicondyle", "bone": "humerus" }],
+      "distal": [
+        { "name": "posterior aspect of hand" },
+        { "name": "base of 3rd metacarpal", "bone": "metacarpals" }
+      ]
     }
   },
   {
@@ -868,8 +1011,11 @@
       }
     ],
     "attachments": {
-      "proximal": ["lateral epicondyle"],
-      "distal": ["posterior aspect", "base of metacarpal 5"]
+      "proximal": [{ "name": "lateral epicondyle", "bone": "humerus" }],
+      "distal": [
+        { "name": "posterior aspect of the hand" },
+        { "name": "base of 5th metacarpal", "bone": "metacarpals" }
+      ]
     }
   },
   {
@@ -881,8 +1027,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["anterior tubercle of cervical TVPs"],
-      "distal": ["R1"]
+      "proximal": [
+        { "name": "anterior tubercle of cervical TVPs", "bone": "spine" }
+      ],
+      "distal": [{ "name": "R1", "bone": "ribs" }]
     }
   },
   {
@@ -894,8 +1042,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["anterior tubercle of cervical TVPs"],
-      "distal": ["R1"]
+      "proximal": [
+        { "name": "anterior tubercle of cervical TVPs", "bone": "spine" }
+      ],
+      "distal": [{ "name": "R1", "bone": "ribs" }]
     }
   },
   {
@@ -907,8 +1057,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["anterior tubercle of cervical TVPs"],
-      "distal": ["R2"]
+      "proximal": [
+        { "name": "anterior tubercle of cervical TVPs", "bone": "spine" }
+      ],
+      "distal": [{ "name": "R2", "bone": "ribs" }]
     }
   },
   {
@@ -920,8 +1072,12 @@
       }
     ],
     "attachments": {
-      "proximal": ["manubrium"],
-      "distal": ["mastoid process", "temporal bone", "occipital ridge"]
+      "proximal": [{ "name": "manubrium", "bone": "sternum" }],
+      "distal": [
+        { "name": "mastoid process", "bone": "temporal bone" },
+        { "name": "temporal bone", "bone": "temporal bone" },
+        { "name": "occipital ridge", "bone": "occipital bone" }
+      ]
     }
   },
   {
@@ -938,11 +1094,13 @@
     ],
     "attachments": {
       "proximal": [
-        "superior nuchal line",
-        "nuchal ligament",
-        "spinous process of C7"
+        { "name": "superior nuchal line" },
+        { "name": "nuchal ligament" },
+        { "name": "spinous process of C7", "bone": "spine" }
       ],
-      "distal": ["posterior border on lateral clavicle"]
+      "distal": [
+        { "name": "posterior border on lateral clavicle", "bone": "clavicle" }
+      ]
     }
   },
   {
@@ -954,8 +1112,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["spinous process of T1-T6"],
-      "distal": ["superior border of spine of scapula"]
+      "proximal": [{ "name": "spinous process of T1-T6", "bone": "spine" }],
+      "distal": [
+        { "name": "superior border of spine of scapula", "bone": "scapula" }
+      ]
     }
   },
   {
@@ -967,10 +1127,10 @@
       }
     ],
     "attachments": {
-      "proximal": ["spinous process of T6-T12"],
+      "proximal": [{ "name": "spinous process of T6-T12", "bone": "spine" }],
       "distal": [
-        "root of spine of scapula",
-        "inferior aspect of spine of scapula"
+        { "name": "root of spine of scapula", "bone": "scapula" },
+        { "name": "inferior aspect of spine of scapula", "bone": "scapula" }
       ]
     }
   }

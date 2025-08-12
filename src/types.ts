@@ -5,7 +5,7 @@ export type Muscle = {
     actions: string[];
   }>;
   attachments: {
-    proximal: string[];
-    distal: string[];
+    proximal: Array<{ name: string; bone?: string }>;
+    distal: Array<{ name: string; bone?: string }>;
   };
 };

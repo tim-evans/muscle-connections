@@ -12,9 +12,13 @@ const Joints = [
   { name: "wrist", proximal: "forearm", distal: null },
 ];
 
-export default function joints(data: Muscle[]) {
+export default function joints(data: Muscle[], lastDeals: string[]) {
   let joint = Joints[Math.floor(Math.random() * Joints.length)];
+  while (lastDeals.includes(joint.name)) {
+    joint = Joints[Math.floor(Math.random() * Joints.length)];
+  }
   return {
+    id: joint.name,
     question: <>What muscles cross the {joint.name}?</>,
     deck: data.filter((muscle) => {
       return (

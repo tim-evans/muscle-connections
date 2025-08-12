@@ -44,14 +44,16 @@ function deal(
 
 export function Deals(props: { data: Muscle[] }) {
   let [seed, setSeed] = useState(Math.random());
+  let [lastDeals, setLastDeals] = useState<string[]>([]);
   let [hand, setHand] = useState<Muscle[]>([]);
   let [cards, setCards] = useState<Muscle[]>([]);
   let [played, setPlayed] = useState(false);
   let { question, answer } = useMemo(() => {
     let challenge = challenges[Math.floor(challenges.length * seed)];
-    let attrs = challenge(props.data);
+    let attrs = challenge(props.data, lastDeals);
     let [deck, answer] = deal(attrs.deck, attrs.answer, props.data);
     setHand(deck);
+    setLastDeals([attrs.id, ...lastDeals.slice(0, 4)]);
     setCards([]);
     setPlayed(false);
     return { question: attrs.question, deck, answer };
