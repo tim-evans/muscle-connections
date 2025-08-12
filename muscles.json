@@ -4,15 +4,11 @@
     "joints": [
       {
         "name": "hip",
-        "actions": ["adduction", "flexion"]
+        "actions": ["adduction", "flexion", "medial rotation"]
       }
     ],
     "attachments": {
       "proximal": [
-        {
-          "name": "body of pubis",
-          "bone": "os coxae"
-        },
         {
           "name": "inferior ramus of pubis",
           "bone": "humerus"
@@ -20,24 +16,29 @@
       ],
       "distal": [
         {
+          "name": "pectineal line",
+          "bone": "femur"
+        },
+        {
           "name": "linea aspera",
           "bone": "femur"
         }
       ]
-    }
+    },
+    "innervation": ["obturator"]
   },
   {
-    "name": "Illiacus",
+    "name": "Iliacus",
     "joints": [
       {
         "name": "hip",
-        "actions": ["flexion", "flexion"]
+        "actions": ["flexion", "lateral rotation"]
       }
     ],
     "attachments": {
       "proximal": [
         {
-          "name": "illiac fossa",
+          "name": "iliac fossa",
           "bone": "os coxae"
         }
       ],
@@ -47,7 +48,8 @@
           "bone": "femur"
         }
       ]
-    }
+    },
+    "innervation": ["femoral"]
   },
   {
     "name": "Psoas Major",
@@ -74,7 +76,8 @@
           "bone": "femur"
         }
       ]
-    }
+    },
+    "innervation": ["lumbar"]
   },
   {
     "name": "Sartorius",
@@ -97,11 +100,12 @@
       ],
       "distal": [
         {
-          "name": "shaft of tibia",
+          "name": "pes anserinus",
           "bone": "tibia"
         }
       ]
-    }
+    },
+    "innervation": ["femoral"]
   },
   {
     "name": "Gluteus Maximus",
@@ -114,7 +118,11 @@
     "attachments": {
       "proximal": [
         {
-          "name": "posterior gluteal line",
+          "name": "coccyx",
+          "bone": "coccyx"
+        },
+        {
+          "name": "posterior iliac crest",
           "bone": "os coxae"
         },
         {
@@ -134,7 +142,8 @@
           "name": "illiotibial tract"
         }
       ]
-    }
+    },
+    "innervation": ["inferior gluteal"]
   },
   {
     "name": "Tensor Fasciae Latae",
@@ -142,10 +151,6 @@
       {
         "name": "hip",
         "actions": ["flexion", "abduction", "medial rotation"]
-      },
-      {
-        "name": "knee",
-        "actions": ["lateral rotation"]
       }
     ],
     "attachments": {
@@ -153,61 +158,50 @@
         {
           "name": "ASIS",
           "bone": "os coxae"
+        },
+        {
+          "name": "iliac crest",
+          "bone": "os coxae"
         }
       ],
       "distal": [{ "name": "illiotibial tract" }]
-    }
+    },
+    "innervation": ["superior gluteal"]
   },
   {
     "name": "Pectineus",
     "joints": [
       {
         "name": "hip",
-        "actions": [
-          "flexion",
-          "adduction",
-          "lateral rotation",
-          "medial rotation"
-        ]
-      },
-      {
-        "name": "spine",
-        "actions": ["lateral flexion", "flexion"]
+        "actions": ["flexion", "adduction", "medial rotation"]
       }
     ],
     "attachments": {
       "proximal": [{ "name": "superior ramus of pubis", "bone": "os coxae" }],
-      "distal": [{ "name": "linea aspera", "bone": "femur" }]
-    }
+      "distal": [{ "name": "pectineal line", "bone": "femur" }]
+    },
+    "innervation": ["femoral", "obturator"]
   },
   {
     "name": "Adductor Longus",
     "joints": [
       {
         "name": "hip",
-        "actions": ["adduction", "flexion"]
+        "actions": ["adduction", "flexion", "medial rotation"]
       }
     ],
     "attachments": {
-      "proximal": [
-        { "name": "body of pubis", "bone": "os coxae" },
-        { "name": "superior ramus of pubis", "bone": "os coxae" }
-      ],
+      "proximal": [{ "name": "pubic tubercle", "bone": "os coxae" }],
       "distal": [{ "name": "linea aspera", "bone": "femur" }]
-    }
+    },
+    "innervation": ["obturator"]
   },
   {
     "name": "Adductor Magnus",
     "joints": [
       {
         "name": "hip",
-        "actions": [
-          "adduction",
-          "flexion",
-          "lateral rotation",
-          "medial rotation",
-          "extension"
-        ]
+        "actions": ["adduction", "flexion", "medial rotation", "extension"]
       }
     ],
     "attachments": {
@@ -216,8 +210,12 @@
         { "name": "ischial ramus", "bone": "os coxae" },
         { "name": "ischial tuberosity", "bone": "os coxae" }
       ],
-      "distal": [{ "name": "linea aspera", "bone": "femur" }]
-    }
+      "distal": [
+        { "name": "linea aspera", "bone": "femur" },
+        { "name": "adductor tubercle", "bone": "femur" }
+      ]
+    },
+    "innervation": ["obturator", "sciatic"]
   },
   {
     "name": "Biceps Femoris",
@@ -237,7 +235,8 @@
         { "name": "linea aspera", "bone": "femur" }
       ],
       "distal": [{ "name": "head of fibula", "bone": "fibula" }]
-    }
+    },
+    "innervation": ["sciatic"]
   },
   {
     "name": "Semimembranosus",
@@ -254,7 +253,8 @@
     "attachments": {
       "proximal": [{ "name": "ischial tuberosity", "bone": "os coxae" }],
       "distal": [{ "name": "medial condyle of tibia", "bone": "tibia" }]
-    }
+    },
+    "innervation": ["sciatic"]
   },
   {
     "name": "Semitendinosus",
@@ -271,7 +271,8 @@
     "attachments": {
       "proximal": [{ "name": "ischial tuberosity", "bone": "os coxae" }],
       "distal": [{ "name": "pes anserinus", "bone": "tibia" }]
-    }
+    },
+    "innervation": ["sciatic"]
   },
   {
     "name": "Gluteus Medius",
@@ -292,7 +293,8 @@
         { "name": "superior anterior gluteal lines", "bone": "os coxae" }
       ],
       "distal": [{ "name": "greater trochanter", "bone": "femur" }]
-    }
+    },
+    "innervation": ["superior gluteal"]
   },
   {
     "name": "Gluteus Minimus",
@@ -305,7 +307,8 @@
     "attachments": {
       "proximal": [{ "name": "inferior gluteal lines", "bone": "os coxae" }],
       "distal": [{ "name": "greater trochanter", "bone": "femur" }]
-    }
+    },
+    "innervation": ["superior gluteal"]
   },
   {
     "name": "Pectineus",
@@ -325,7 +328,7 @@
     "joints": [
       {
         "name": "hip",
-        "actions": ["adduction", "flexion"]
+        "actions": ["adduction", "medial rotation"]
       },
       {
         "name": "knee",
@@ -334,8 +337,9 @@
     ],
     "attachments": {
       "proximal": [{ "name": "inferior ramus of pubis", "bone": "os coxae" }],
-      "distal": [{ "name": "medial to tibial tuberosity", "bone": "tibia" }]
-    }
+      "distal": [{ "name": "pes anserinus", "bone": "tibia" }]
+    },
+    "innervation": ["obturator"]
   },
   {
     "name": "Piriformis",
@@ -361,7 +365,8 @@
     "attachments": {
       "proximal": [{ "name": "ischial spine", "bone": "os coxae" }],
       "distal": [{ "name": "greater trochanter", "bone": "femur" }]
-    }
+    },
+    "innervation": ["sacral"]
   },
   {
     "name": "Gemellus Inferior",
@@ -372,9 +377,10 @@
       }
     ],
     "attachments": {
-      "proximal": [{ "name": "ischium", "bone": "os coxae" }],
+      "proximal": [{ "name": "ischial tuberosity", "bone": "os coxae" }],
       "distal": [{ "name": "greater trochanter", "bone": "femur" }]
-    }
+    },
+    "innervation": ["sacral"]
   },
   {
     "name": "Obturator Internus",
@@ -389,7 +395,8 @@
         { "name": "internal aspect of obturator foramen", "bone": "os coxae" }
       ],
       "distal": [{ "name": "greater trochanter", "bone": "femur" }]
-    }
+    },
+    "innervation": ["sacral"]
   },
   {
     "name": "Obturator Externus",
@@ -404,29 +411,31 @@
         { "name": "external aspect of obturator foramen", "bone": "os coxae" }
       ],
       "distal": [{ "name": "greater trochanter", "bone": "femur" }]
-    }
+    },
+    "innervation": ["obturator"]
   },
   {
     "name": "Quadratus Femoris",
     "joints": [
       {
         "name": "hip",
-        "actions": ["adduction", "lateral rotation"]
+        "actions": ["lateral rotation"]
       }
     ],
     "attachments": {
       "proximal": [
-        { "name": "lateral surface of ischial tuberosity", "bone": "os coxae" }
+        { "name": "lateral border of ischial tuberosity", "bone": "os coxae" }
       ],
-      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
-    }
+      "distal": [{ "name": "intertrochanteric crest", "bone": "femur" }]
+    },
+    "innervation": ["sacral"]
   },
   {
     "name": "Rectus Femoris",
     "joints": [
       {
         "name": "knee",
-        "actions": ["flexion"]
+        "actions": ["extension"]
       },
       {
         "name": "hip",
@@ -441,7 +450,8 @@
         }
       ],
       "distal": [{ "name": "tibial tuberosity", "bone": "tibia" }]
-    }
+    },
+    "innervation": ["femoral"]
   },
   {
     "name": "Vastus Medialis",
@@ -454,7 +464,8 @@
     "attachments": {
       "proximal": [{ "name": "medial lip of linea aspera", "bone": "femur" }],
       "distal": [{ "name": "tibial tuberosity", "bone": "tibia" }]
-    }
+    },
+    "innervation": ["femoral"]
   },
   {
     "name": "Vastus Lateralis",
@@ -465,9 +476,14 @@
       }
     ],
     "attachments": {
-      "proximal": [{ "name": "linea aspera", "bone": "femur" }],
+      "proximal": [
+        { "name": "linea aspera", "bone": "femur" },
+        { "name": "gluteal tuberosity", "bone": "femur" },
+        { "name": "greater trochanter", "bone": "femur" }
+      ],
       "distal": [{ "name": "tibial tuberosity", "bone": "tibia" }]
-    }
+    },
+    "innervation": ["femoral"]
   },
   {
     "name": "Vastus Intermedius",
@@ -478,9 +494,12 @@
       }
     ],
     "attachments": {
-      "proximal": [{ "name": "anterior surface of femur", "bone": "femur" }],
+      "proximal": [
+        { "name": "anterior and lateral shaft of femur", "bone": "femur" }
+      ],
       "distal": [{ "name": "tibial tuberosity", "bone": "tibia" }]
-    }
+    },
+    "innervation": ["femoral"]
   },
   {
     "name": "Gastrocnemius",
@@ -612,16 +631,20 @@
     }
   },
   {
-    "name": "Levator Scapulae",
+    "name": "Levator Scapula",
     "joints": [
       {
         "name": "scapula",
         "actions": ["elevation", "downward rotation"]
+      },
+      {
+        "name": "neck",
+        "actions": ["lateral flexion", "ipsilateral rotation", "extension"]
       }
     ],
     "attachments": {
       "proximal": [{ "name": "transverse proceses of C1-C4", "bone": "spine" }],
-      "distal": [{ "name": "vertebral border of scapula", "bone": "scapula" }]
+      "distal": [{ "name": "medial border of scapula", "bone": "scapula" }]
     }
   },
   {
@@ -664,6 +687,24 @@
     }
   },
   {
+    "name": "Serratus Anterior",
+    "joints": [
+      {
+        "name": "scapula",
+        "actions": ["retraction", "upward rotation", "depression"]
+      }
+    ],
+    "attachments": {
+      "proximal": [{ "name": "ribs 1-8 anterolateral", "bone": "ribs" }],
+      "distal": [
+        {
+          "name": "anterior surface of the medial border of the scapula",
+          "bone": "scapula"
+        }
+      ]
+    }
+  },
+  {
     "name": "Deltoid",
     "joints": [
       {
@@ -681,7 +722,7 @@
     ],
     "attachments": {
       "proximal": [
-        { "name": "anterior lateral clavicle", "bone": "clavicle" },
+        { "name": "lateral 1/3 of clavicle", "bone": "clavicle" },
         { "name": "acromion", "bone": "scapula" },
         { "name": "spine of scapula", "bone": "scapula" }
       ],
@@ -709,7 +750,10 @@
         { "name": "supraglenoid tubercle", "bone": "scapula" },
         { "name": "coracoid process", "bone": "scapula" }
       ],
-      "distal": [{ "name": "radial tuberosity", "bone": "radius" }]
+      "distal": [
+        { "name": "radial tuberosity", "bone": "radius" },
+        { "name": "aponeurosis of the biceps brachii" }
+      ]
     }
   },
   {
@@ -723,7 +767,7 @@
     "attachments": {
       "proximal": [{ "name": "coracoid process", "bone": "scapula" }],
       "distal": [
-        { "name": "mid-medial shaft of the humerus", "bone": "humerus" }
+        { "name": "medial surface of the mid-humeral shaft", "bone": "humerus" }
       ]
     }
   },
@@ -757,17 +801,20 @@
           "flexion",
           "adduction",
           "medial rotation",
-          "horizontal adduction"
+          "horizontal adduction",
+          "extension"
         ]
       }
     ],
     "attachments": {
       "proximal": [
-        { "name": "medial clavicle", "bone": "clavicle" },
+        { "name": "medial half of clavicle", "bone": "clavicle" },
         { "name": "sternum", "bone": "sternum" },
         { "name": "costal cartilage of true ribs", "bone": "ribs" }
       ],
-      "distal": [{ "name": "bicipital groove", "bone": "humerus" }]
+      "distal": [
+        { "name": "lateral lip of bicipital groove", "bone": "humerus" }
+      ]
     }
   },
   {
@@ -775,12 +822,25 @@
     "joints": [
       {
         "name": "shoulder",
-        "actions": ["medial rotation", "abduction"]
+        "actions": ["medial rotation"]
       }
     ],
     "attachments": {
       "proximal": [{ "name": "subscapular fossa", "bone": "scapula" }],
       "distal": [{ "name": "lesser tubercle of humerus", "bone": "humerus" }]
+    }
+  },
+  {
+    "name": "Supraspinatus",
+    "joints": [
+      {
+        "name": "shoulder",
+        "actions": ["abduction"]
+      }
+    ],
+    "attachments": {
+      "proximal": [{ "name": "supraspinatus fossa", "bone": "scapula" }],
+      "distal": [{ "name": "greater tubercle of humerus", "bone": "humerus" }]
     }
   },
   {
@@ -795,7 +855,9 @@
       "proximal": [
         { "name": "thoracolumbar aponeurosis" },
         { "name": "spinous process of T6/T7-L5", "bone": "spine" },
-        { "name": "iliac crest", "bone": "os coxae" }
+        { "name": "inferior angle of scapula", "bone": "scapula" },
+        { "name": "last three or four ribs", "bone": "ribs" },
+        { "name": "posterior iliac crest", "bone": "os coxae" }
       ],
       "distal": [
         { "name": "medial lip of bicipital groove", "bone": "humerus" }
@@ -807,12 +869,12 @@
     "joints": [
       {
         "name": "shoulder",
-        "actions": ["lateral rotation"]
+        "actions": ["lateral rotation", "adduction", "stabilization"]
       }
     ],
     "attachments": {
       "proximal": [{ "name": "infraspinatus fossa", "bone": "scapula" }],
-      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
+      "distal": [{ "name": "greater tubercle", "bone": "humerus" }]
     }
   },
   {
@@ -820,12 +882,12 @@
     "joints": [
       {
         "name": "shoulder",
-        "actions": ["lateral rotation"]
+        "actions": ["lateral rotation", "adduction"]
       }
     ],
     "attachments": {
       "proximal": [{ "name": "superior border of scapula", "bone": "scapula" }],
-      "distal": [{ "name": "greater trochanter", "bone": "femur" }]
+      "distal": [{ "name": "greater tubercle of humerus", "bone": "humerus" }]
     }
   },
   {
@@ -850,6 +912,24 @@
         { "name": "deep, most of posterior humerus", "bone": "humerus" }
       ],
       "distal": [{ "name": "olecranon process", "bone": "ulna" }]
+    }
+  },
+  {
+    "name": "Subclavius",
+    "joints": [
+      {
+        "name": "scapula",
+        "actions": ["depression", "stabilization"]
+      }
+    ],
+    "attachments": {
+      "proximal": [{ "name": "first rib and cartilage", "bone": "ribs" }],
+      "distal": [
+        {
+          "name": "inferior surface of middle third of clavicle",
+          "bone": "clavicle"
+        }
+      ]
     }
   },
   {
@@ -1094,13 +1174,12 @@
     ],
     "attachments": {
       "proximal": [
+        { "name": "external occipital protuberance", "bone": "occipital bone" },
         { "name": "superior nuchal line" },
         { "name": "nuchal ligament" },
         { "name": "spinous process of C7", "bone": "spine" }
       ],
-      "distal": [
-        { "name": "posterior border on lateral clavicle", "bone": "clavicle" }
-      ]
+      "distal": [{ "name": "lateral third of clavicle", "bone": "clavicle" }]
     }
   },
   {
@@ -1108,12 +1187,13 @@
     "joints": [
       {
         "name": "scapula",
-        "actions": ["retraction"]
+        "actions": ["retraction", "stabilization"]
       }
     ],
     "attachments": {
       "proximal": [{ "name": "spinous process of T1-T6", "bone": "spine" }],
       "distal": [
+        { "name": "acromion", "bone": "scapula" },
         { "name": "superior border of spine of scapula", "bone": "scapula" }
       ]
     }
@@ -1128,10 +1208,7 @@
     ],
     "attachments": {
       "proximal": [{ "name": "spinous process of T6-T12", "bone": "spine" }],
-      "distal": [
-        { "name": "root of spine of scapula", "bone": "scapula" },
-        { "name": "inferior aspect of spine of scapula", "bone": "scapula" }
-      ]
+      "distal": [{ "name": "spine of scapula", "bone": "scapula" }]
     }
   }
 ]
