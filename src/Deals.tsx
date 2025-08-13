@@ -25,7 +25,7 @@ function deal(
   deck: Muscle[]
 ): [Muscle[], Muscle[]] {
   let correctCount = Math.min(
-    Math.max(Math.floor(Math.random() * 5), 1),
+    Math.max(Math.round(Math.random() * 5), 1),
     correct.length
   );
   let incorrectCount = 5 - correctCount;
