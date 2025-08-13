@@ -311,19 +311,6 @@
     "innervation": ["superior gluteal"]
   },
   {
-    "name": "Pectineus",
-    "joints": [
-      {
-        "name": "hip",
-        "actions": ["adduction", "flexion"]
-      }
-    ],
-    "attachments": {
-      "proximal": [{ "name": "superior ramus of pubis", "bone": "os coxae" }],
-      "distal": [{ "name": "posterior, proximal femur", "bone": "femur" }]
-    }
-  },
-  {
     "name": "Gracilis",
     "joints": [
       {
@@ -352,7 +339,8 @@
     "attachments": {
       "proximal": [{ "name": "anterior sacrum", "bone": "sacrum" }],
       "distal": [{ "name": "greater trochanter", "bone": "femur" }]
-    }
+    },
+    "innervation": ["sacral"]
   },
   {
     "name": "Gemellus Superior",
@@ -541,7 +529,8 @@
         { "name": "calcaneus", "bone": "tarsals" },
         { "name": "achilles tendon" }
       ]
-    }
+    },
+    "innervation": ["tibial"]
   },
   {
     "name": "Soleus",
@@ -560,7 +549,8 @@
         { "name": "calcaneus", "bone": "tarsals" },
         { "name": "achilles tendon" }
       ]
-    }
+    },
+    "innervation": ["tibial"]
   },
   {
     "name": "Tibialis Posterior",
@@ -580,7 +570,8 @@
         { "name": "navicular", "bone": "tarsals" },
         { "name": "medial cuneiform", "bone": "tarsals" }
       ]
-    }
+    },
+    "innervation": ["tibial"]
   },
   {
     "name": "Tibialis Anterior",
@@ -596,7 +587,8 @@
         { "name": "base of 1st metatarsal", "bone": "metatarsals" },
         { "name": "medial cuneiform", "bone": "tarsals" }
       ]
-    }
+    },
+    "innervation": ["deep fibular"]
   },
   {
     "name": "Peroneus Longus",
@@ -607,12 +599,16 @@
       }
     ],
     "attachments": {
-      "proximal": [{ "name": "lateral fibula", "bone": "fibula" }],
+      "proximal": [
+        { "name": "proximal two thirds of lateral fibula", "bone": "fibula" },
+        { "name": "head of fibula", "bone": "fibula" }
+      ],
       "distal": [
         { "name": "base of 1st metatarsal", "bone": "metatarsals" },
         { "name": "medial cuneiform", "bone": "tarsals" }
       ]
-    }
+    },
+    "innervation": ["superficial fibular"]
   },
   {
     "name": "Peroneus Brevis",
@@ -623,12 +619,14 @@
       }
     ],
     "attachments": {
-      "proximal": [{ "name": "lateral fibula", "bone": "fibula" }],
+      "proximal": [
+        { "name": "distal 2/3 of lateral fibula", "bone": "fibula" }
+      ],
       "distal": [
-        { "name": "base of 5th metatarsal", "bone": "metatarsals" },
         { "name": "tuberosity of 5th metatarsal", "bone": "metatarsals" }
       ]
-    }
+    },
+    "innervation": ["superficial fibular"]
   },
   {
     "name": "Levator Scapula",
@@ -943,7 +941,8 @@
     "attachments": {
       "proximal": [{ "name": "lateral epicondyle", "bone": "humerus" }],
       "distal": [{ "name": "proximal, posterior ulna", "bone": "ulna" }]
-    }
+    },
+    "innervation": ["radial"]
   },
   {
     "name": "Brachialis",
@@ -956,7 +955,8 @@
     "attachments": {
       "proximal": [{ "name": "distal, anterior humerus", "bone": "humerus" }],
       "distal": [{ "name": "ulnar tuberosity", "bone": "ulna" }]
-    }
+    },
+    "innervation": ["musculocutaneous"]
   },
   {
     "name": "Brachioradialis",
@@ -975,7 +975,8 @@
         { "name": "lateral supracondylar ridge", "bone": "humerus" }
       ],
       "distal": [{ "name": "styloid process of radius", "bone": "radius" }]
-    }
+    },
+    "innervation": ["radial"]
   },
   {
     "name": "Supinator",
@@ -1045,6 +1046,121 @@
         { "name": "hamate", "bone": "carpals" },
         { "name": "anterior aspect of palm" },
         { "name": "base of 5th metacarpal", "bone": "metacarpals" }
+      ]
+    }
+  },
+  {
+    "name": "Extensor Digitorum Longus",
+    "joints": [
+      {
+        "name": "ankle",
+        "actions": ["dorsiflexion", "eversion"]
+      },
+      {
+        "name": "toe",
+        "actions": ["extend"]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        {
+          "name": "lateral condyle of tibia",
+          "bone": "tibia"
+        },
+        {
+          "name": "proximal, anterior shaft of fibula",
+          "bone": "fibula"
+        }
+      ],
+      "distal": [
+        {
+          "name": "middle and distal phalanges of second through fifth toes",
+          "bone": "toes"
+        }
+      ]
+    },
+    "innervation": ["fibular"]
+  },
+  {
+    "name": "Extensor Hallucis Longus",
+    "joints": [
+      {
+        "name": "ankle",
+        "actions": ["dorsiflexion", "inversion"]
+      },
+      {
+        "name": "toe",
+        "actions": ["extend"]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        {
+          "name": "middle anterior surface of tibia",
+          "bone": "tibia"
+        }
+      ],
+      "distal": [
+        {
+          "name": "distal phalynx of the first toe",
+          "bone": "toes"
+        }
+      ]
+    },
+    "innervation": ["deep fibular"]
+  },
+  {
+    "name": "Flexor Digitorum Longus",
+    "joints": [
+      {
+        "name": "ankle",
+        "actions": ["plantarflexion", "inversion"]
+      },
+      {
+        "name": "toe",
+        "actions": ["flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        {
+          "name": "middle, posterior surface of tibia",
+          "bone": "tibia"
+        }
+      ],
+      "distal": [
+        {
+          "name": "distal phalanges of second through fifth toes",
+          "bone": "toes"
+        }
+      ]
+    },
+    "innervation": ["tibial"]
+  },
+  {
+    "name": "Flexor Hallucis Longus",
+    "joints": [
+      {
+        "name": "ankle",
+        "actions": ["plantarflexion", "inversion"]
+      },
+      {
+        "name": "toe",
+        "actions": ["flexion"]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        {
+          "name": "middle half of posterior tibia",
+          "bone": "tibia"
+        }
+      ],
+      "distal": [
+        {
+          "name": "distal phalanges of second through fifth toes",
+          "bone": "toes"
+        }
       ]
     }
   },
@@ -1209,6 +1325,41 @@
     "attachments": {
       "proximal": [{ "name": "spinous process of T6-T12", "bone": "spine" }],
       "distal": [{ "name": "spine of scapula", "bone": "scapula" }]
+    }
+  },
+  {
+    "name": "External Oblique",
+    "joints": [
+      {
+        "name": "spine",
+        "actions": ["lateral flexion", "contralateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": [{ "name": "external surfaces of R5-R12", "bone": "ribs" }],
+      "distal": [
+        { "name": "anterior part of the iliac crest", "bone": "os coxae" },
+        { "name": "rectus sheath to linea alba" }
+      ]
+    }
+  },
+  {
+    "name": "Internal Oblique",
+    "joints": [
+      {
+        "name": "spine",
+        "actions": ["lateral flexion", "ipsilateral rotation"]
+      }
+    ],
+    "attachments": {
+      "proximal": [
+        { "name": "iliac crest", "bone": "os coxae" },
+        { "name": "thoracolumbar fascia" }
+      ],
+      "distal": [
+        { "name": "internal surface of lower 3 ribs", "bone": "ribs" },
+        { "name": "rectus sheath to linea alba" }
+      ]
     }
   }
 ]

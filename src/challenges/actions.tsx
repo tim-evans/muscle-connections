@@ -38,6 +38,7 @@ const Joints = [
       "adduction",
       "lateral abduction",
       "lateral adduction",
+      "stabilization",
     ],
   },
   {
