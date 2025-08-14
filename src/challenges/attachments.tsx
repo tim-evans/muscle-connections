@@ -9,7 +9,7 @@ const Attachments = [
   "linea aspera",
   "pes anserinus",
   "head of fibula",
-  "corocoid process",
+  "coracoid process",
   "achilles tendon",
 ];
 
