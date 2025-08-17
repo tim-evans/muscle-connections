@@ -11,7 +11,7 @@
       "proximal": [
         {
           "name": "inferior ramus of pubis",
-          "bone": "humerus"
+          "bone": "os coxae"
         }
       ],
       "distal": [
@@ -59,7 +59,7 @@
         "actions": ["flexion", "lateral rotation"]
       },
       {
-        "name": "spine",
+        "name": "trunk",
         "actions": ["lateral flexion", "flexion"]
       }
     ],
@@ -67,7 +67,7 @@
       "proximal": [
         {
           "name": "T12-L4",
-          "bone": "spine"
+          "bone": "trunk"
         }
       ],
       "distal": [
@@ -641,7 +641,7 @@
       }
     ],
     "attachments": {
-      "proximal": [{ "name": "transverse proceses of C1-C4", "bone": "spine" }],
+      "proximal": [{ "name": "transverse proceses of C1-C4", "bone": "neck" }],
       "distal": [{ "name": "medial border of scapula", "bone": "scapula" }]
     }
   },
@@ -852,7 +852,7 @@
     "attachments": {
       "proximal": [
         { "name": "thoracolumbar aponeurosis" },
-        { "name": "spinous process of T6/T7-L5", "bone": "spine" },
+        { "name": "spinous process of T6/T7-L5", "bone": "trunk" },
         { "name": "inferior angle of scapula", "bone": "scapula" },
         { "name": "last three or four ribs", "bone": "ribs" },
         { "name": "posterior iliac crest", "bone": "os coxae" }
@@ -1224,7 +1224,7 @@
     ],
     "attachments": {
       "proximal": [
-        { "name": "anterior tubercle of cervical TVPs", "bone": "spine" }
+        { "name": "anterior tubercle of cervical TVPs", "bone": "neck" }
       ],
       "distal": [{ "name": "R1", "bone": "ribs" }]
     }
@@ -1239,7 +1239,7 @@
     ],
     "attachments": {
       "proximal": [
-        { "name": "anterior tubercle of cervical TVPs", "bone": "spine" }
+        { "name": "anterior tubercle of cervical TVPs", "bone": "neck" }
       ],
       "distal": [{ "name": "R1", "bone": "ribs" }]
     }
@@ -1254,7 +1254,7 @@
     ],
     "attachments": {
       "proximal": [
-        { "name": "anterior tubercle of cervical TVPs", "bone": "spine" }
+        { "name": "anterior tubercle of cervical TVPs", "bone": "neck" }
       ],
       "distal": [{ "name": "R2", "bone": "ribs" }]
     }
@@ -1293,7 +1293,7 @@
         { "name": "external occipital protuberance", "bone": "occipital bone" },
         { "name": "superior nuchal line" },
         { "name": "nuchal ligament" },
-        { "name": "spinous process of C7", "bone": "spine" }
+        { "name": "spinous process of C7", "bone": "neck" }
       ],
       "distal": [{ "name": "lateral third of clavicle", "bone": "clavicle" }]
     }
@@ -1307,7 +1307,7 @@
       }
     ],
     "attachments": {
-      "proximal": [{ "name": "spinous process of T1-T6", "bone": "spine" }],
+      "proximal": [{ "name": "spinous process of T1-T6", "bone": "trunk" }],
       "distal": [
         { "name": "acromion", "bone": "scapula" },
         { "name": "superior border of spine of scapula", "bone": "scapula" }
@@ -1323,7 +1323,7 @@
       }
     ],
     "attachments": {
-      "proximal": [{ "name": "spinous process of T6-T12", "bone": "spine" }],
+      "proximal": [{ "name": "spinous process of T6-T12", "bone": "trunk" }],
       "distal": [{ "name": "spine of scapula", "bone": "scapula" }]
     }
   },
@@ -1331,7 +1331,7 @@
     "name": "External Oblique",
     "joints": [
       {
-        "name": "spine",
+        "name": "trunk",
         "actions": ["lateral flexion", "contralateral rotation"]
       }
     ],
@@ -1347,7 +1347,7 @@
     "name": "Internal Oblique",
     "joints": [
       {
-        "name": "spine",
+        "name": "trunk",
         "actions": ["lateral flexion", "ipsilateral rotation"]
       }
     ],

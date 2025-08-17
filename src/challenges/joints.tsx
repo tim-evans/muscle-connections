@@ -4,6 +4,7 @@ const Joints = [
   { name: "ankle", proximal: "knee", distal: null },
   { name: "knee", proximal: "hip", distal: "ankle" },
   { name: "hip", proximal: null, distal: "knee" },
+  { name: "trunk", proximal: "neck", distal: "hip" },
   { name: "neck", proximal: "scapula", distal: "shoulder" },
   { name: "shoulder", proximal: "neck", distal: "scapula" },
   { name: "scapula", proximal: "neck", distal: "elbow" },
