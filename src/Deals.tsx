@@ -94,6 +94,10 @@ export function Deals(props: { data: Muscle[] }) {
                   : "incorrect"
                 : ""
             }`}
+            onClick={() => {
+              setCards(cards.filter((c) => c.name !== card.name));
+              setHand([...hand, card]);
+            }}
             key={card.name}
           >
             {card.name}
